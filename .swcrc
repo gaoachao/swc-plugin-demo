@@ -1,0 +1,13 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "isModule": true,
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript"
+    },
+    "target": "es2022",
+    "experimental": {
+      "plugins": [["./my_first_plugin.wasm", {}]]
+    }
+  }
+}
